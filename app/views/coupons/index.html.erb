@@ -1,0 +1,6 @@
+<div>
+    <%= @coupons.each do |coupon| %>
+        binding.pry
+        <div><%= link_to coupon, coupon_path(coupon) %></div>
+        <% end %>
+</div>
